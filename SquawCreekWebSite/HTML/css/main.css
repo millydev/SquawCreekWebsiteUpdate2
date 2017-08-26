@@ -306,3 +306,45 @@ div.main {
 	
 }
 /* End shop styling */
+
+/* Styling for sign-up form */
+#signUpForm{
+	margin: 25px auto ;
+	width: 320px;
+	color: steelblue;
+	border: 4px solid steelblue;
+	padding: 25px;
+	background: #FFF;
+}
+
+#signUpSubmit{
+	width: 325px;
+	height: 40px;
+	border: none;
+	background: steelblue;
+	color: white;
+}
+
+#firstNameSU, #lastNameSU, #phoneNumberSU, #emailSU{
+	display: block;
+	margin-bottom: 40px;
+	width: 310px;
+	height: 30px;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+	padding: 5px;
+	
+}
+
+#firstNameSU:focus, #lastNameSU:focus, #phoneNumberSU:focus, #emailSU:focus {
+	background: #FFF;
+}
+
+.signUpDesc  {
+	text-align: center;
+}
+
+#firstNameSU:valid, #lastNameSU:valid, #phoneNumberSU:valid, #emailSU:valid{
+	background: #FFF;
+}
+/* end sign up styling */
